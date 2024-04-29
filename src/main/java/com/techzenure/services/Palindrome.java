@@ -8,6 +8,7 @@ public class Palindrome {
 		String strRev = sb.toString();
 		return(strRev.equalsIgnoreCase(str));
 		*/
+		int a = 0;
 		int start = 0;
 		int end = str.length()-1;
 		while(start < end) {
